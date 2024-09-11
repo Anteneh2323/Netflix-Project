@@ -1,0 +1,69 @@
+.footer_outer_container {
+  background-color: #141414; /* Dark background */
+  /* Gray text color */
+  padding: 20px 0; /* Padding for top and bottom */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_icons {
+  display: block;
+  gap: 15px; /* Space between icons */
+}
+
+.footer_icons svg {
+  color: #ffffff; /* Icon color */
+  cursor: pointer;
+  transition: color 0.3s; /* Smooth transition on hover */
+  margin: 4px 18px;
+  justify-content: space-between;
+}
+
+.footer_icons svg:hover {
+  color: white; /* Hover color */
+}
+
+.footer_data {
+  color: #757575;
+  display: flex;
+  justify-content: space-between; /* Space out sections */
+  flex-wrap: wrap; /* Responsive wrap */
+  width: 100%;
+}
+
+.footer_data div {
+  flex: 1; /* Equal width sections */
+  min-width: 150px; /* Minimum width for small screens */
+}
+
+.footer_data ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between list items */
+}
+.footer_inner_container {
+  width: 80%;
+}
+.footer_data li {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer_data li:hover {
+  color: white; /* Hover effect */
+}
+
+.service_code {
+  display: block;
+  margin-top: 20px; /* Margin above service code */
+  color: #757575; /* Text color */
+}
+
+.copy_write {
+  margin-top: 4px; /* Margin above copyright */
+  color: #757575; /* Text color */
+}
